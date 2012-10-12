@@ -16,7 +16,7 @@
                     start = new Date().getTime();
                 });
                 $( window ).on( "hashchange", function() {
-                    console.log( "hashchange took: " + (new Date().getTime() - start) + "ms" );
+                    alert( "hashchange took: " + (new Date().getTime() - start) + "ms" );
                 });
             });
         </script>
